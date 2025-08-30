@@ -1,0 +1,22 @@
+# Core dependencies
+ollama
+langchain
+langchain-community
+langchain-pinecone
+pinecone-client
+pypdf
+
+# Embeddings
+sentence-transformers
+transformers
+
+# Environment variables
+python-dotenv
+
+# Utilities
+tqdm
+requests
+
+# Jupyter for experiments (optional, remove if not needed in production)
+notebook
+ipykernel

@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache
+*.cache
+.cache/
+pip-wheel-metadata/
+*.pytest_cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# PDF / large dataset files (keep your PDFs locally, not in git)
+*.pdf
+data/
+datasets/
+
+# Ollama models (don’t push large model files)
+*.bin
+*.pt
+*.ckpt
+
+# Secrets
+.env.local
+.env.production
+.env.development
+*.pem
