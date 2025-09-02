@@ -1,8 +1,24 @@
+# try llama3:8b on cpu which is seem slow 
+# model:
+#   name: "llama3:8b"
+#   temperature: 0.2
+#   max_tokens: 150
+#   concise: true
+
+#now trying to use a quantized model
 model:
-  name: llama3
-  temperature: 0.7
-pinecone:
-  api_key: YOUR_API_KEY
-  index_name: medical-chatbot
-data:
-  pdf_path: src/data/raw/where_there_is_no_doctor.pdf
+  name: "nous-hermes:7b-llama2-q4_K_M"
+  temperature: 0.2
+  max_tokens: 150
+  concise: true
+
+embedding:
+  model: "sentence-transformers/all-MiniLM-L6-v2"
+  dim: 384
+
+chunk:
+  size: 500
+  overlap: 50
+
+faiss:
+  path: "data/embeddings/index.faiss"
