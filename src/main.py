@@ -30,7 +30,9 @@ except Exception as e:
     logger.error(f"⚠️ Index not loaded: {e}")
     st.warning(f"⚠️ Index not loaded: {e}")
 
-st.title("🩺 Medical Chatbot with LLaMA")
+st.title("🩺 Health Assistant  –  No Clinic")
+
+
 
 # Reset button
 if st.button("🔄 Reset Conversation"):
