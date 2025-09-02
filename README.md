@@ -62,7 +62,7 @@ The file structure of the **MEDICAL-LLAMA-CHATBOT** project is as follows:
 git clone https://github.com/IdreesAh809/medical-chatbot-with-llama.git
 cd medical-chatbot-with-llama
 
-# 2. Create environment & Install dependencies
+# 2. Create Environment & Install dependencies
 pip install -r requirements.txt
 
 # 3. Install Ollama and pull the quantized model
