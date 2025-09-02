@@ -9,7 +9,8 @@ pypdf
 # Embeddings
 sentence-transformers
 transformers
-
+faiss-cpu
+PyYAML
 # Environment variables
 python-dotenv
 
