@@ -7,6 +7,13 @@ This project is a **medical chatbot** built with **Ollama + Streamlit + FAISS**,
 
 ---
 
+## 🖼️ Demo Screenshot
+
+Here’s how the chatbot UI looks:
+
+![Chatbot UI](assets/screenshot.png)
+
+
 ## 📂 Project Structure
 
 The file structure of the **MEDICAL-LLAMA-CHATBOT** project is as follows:
