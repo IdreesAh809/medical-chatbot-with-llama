@@ -63,18 +63,3 @@ ollama pull nous-hermes:7b-llama2-q4_K_M
 # 4. Run the Streamlit app
 streamlit run src/main.py
 ```
-
-# Install Python dependencies
-```
-pip install -r requirements.txt
-```
-
-# Install Ollama & pull model
-```
-ollama pull nous-hermes:7b-llama2-q4_K_M
-```
-
-# Run the Streamlit app
-```
-streamlit run src/main.py
-```
