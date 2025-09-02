@@ -7,7 +7,7 @@ This project is a **medical chatbot** built with **Ollama + Streamlit + FAISS**,
 
 ---
 
-## 🖼️ Demo Screenshot
+## 🖼️ Demo UI
 
 <p align="center" style="margin: 40px 0;">
   <img src="assets/MedicalBot-UI.png" alt="MedicalBot UI">
